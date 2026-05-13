@@ -23,12 +23,14 @@
   --text-soft: #989590;
   --text-faint: #b3b0a8;
 
-  /* Accent — Open Design action color for app chrome only. */
-  --accent: #c96442;
-  --accent-strong: #b45a3b;
-  --accent-soft: #f5d8cb;
-  --accent-tint: #fbeee5;
-  --accent-hover: #b45a3b;
+  /* Accent — Syntra Green for app chrome. */
+  --accent: #1f8a4c;  /* Syntra Green */
+  --accent-strong: #1a7040;
+  --accent-soft: #e8f5ee;
+  --accent-tint: #f0faf4;
+  --accent-hover: #1a7040;
+  --accent-wash: color-mix(in srgb, var(--accent) 12%, transparent);
+  --accent-foreground: #fff;
 
   /* Semantic accent tints used by tool / status pills. */
   --green: #1f7a3a;
@@ -90,11 +92,11 @@
   --text-soft: #6e6b65;
   --text-faint: #4e4b46;
 
-  --accent: #d97a56;
-  --accent-strong: #e8896a;
-  --accent-soft: #3d2318;
-  --accent-tint: #2e1a12;
-  --accent-hover: #e8896a;
+  --accent: #27a85e;  /* Syntra Green dark */
+  --accent-strong: #31c470;
+  --accent-soft: #0f2a18;
+  --accent-tint: #0a1f11;
+  --accent-hover: #31c470;
 
   --green: #4caf72;
   --green-bg: #0f2a18;
@@ -137,11 +139,11 @@
     --text-soft: #6e6b65;
     --text-faint: #4e4b46;
 
-    --accent: #d97a56;
-    --accent-strong: #e8896a;
-    --accent-soft: #3d2318;
-    --accent-tint: #2e1a12;
-    --accent-hover: #e8896a;
+    --accent: #27a85e;  /* Syntra Green dark */
+    --accent-strong: #31c470;
+    --accent-soft: #0f2a18;
+    --accent-tint: #0a1f11;
+    --accent-hover: #31c470;
 
     --green: #4caf72;
     --green-bg: #0f2a18;

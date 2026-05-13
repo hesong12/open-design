@@ -37,13 +37,13 @@ export const en: Dict = {
   'common.daysShort': '{n}d',
   'common.untitled': 'Untitled',
 
-  'app.brand': 'Open Design',
-  'app.brandPill': 'Research Preview',
-  'app.brandSubtitle': 'by Nexu Labs',
-  'app.welcomeLoading': 'Loading workspace…',
+  'app.brand': 'Syntra Design Studio',
+  'app.brandPill': 'Beta',
+  'app.brandSubtitle': 'by Syntra Solutions',
+  'app.welcomeLoading': 'Loading Syntra Design Studio…',
 
   'settings.welcomeKicker': 'Welcome',
-  'settings.welcomeTitle': 'Set up Open Design',
+  'settings.welcomeTitle': 'Set up Syntra Design Studio',
   'settings.welcomeSubtitle':
     "Pick how you'd like to run generations. You can change this any time from the Settings button in the top bar.",
   'settings.kicker': 'Settings',
@@ -86,10 +86,10 @@ export const en: Dict = {
   'settings.agentInstall.install': 'Install',
   'settings.agentInstall.docs': 'Docs',
   'settings.agentInstall.pathHint':
-    'If you installed a CLI with npm or Homebrew and it still shows as not installed, ensure the tool\'s bin directory is on the PATH the Open Design daemon inherits (Terminal vs GUI apps can differ on macOS). See QUICKSTART.md (section "Local agent CLI and PATH").',
+    'If you installed a CLI with npm or Homebrew and it still shows as not installed, ensure the tool\'s bin directory is on the PATH the Syntra Design Studio daemon inherits (Terminal vs GUI apps can differ on macOS). See QUICKSTART.md (section "Local agent CLI and PATH").',
   'settings.agentInstall.stepOpenLinks': 'Open Install or Docs for your preferred agent.',
   'settings.agentInstall.stepAuth':
-    'Authenticate with the vendor CLI (sign in or add API credentials) before returning to Open Design.',
+    'Authenticate with the vendor CLI (sign in or add API credentials) before returning to Syntra Design Studio.',
   'settings.agentInstall.stepRescan': 'Click Rescan in this section.',
   'settings.agentInstall.stepSelect': 'Select the agent card once it appears as installed.',
   'settings.noAgentsDetected':
@@ -158,7 +158,7 @@ export const en: Dict = {
   'settings.mediaProvidersHint':
     'API keys for image, video and audio generation. Stored locally and synced to the local daemon.',
   'settings.mcpServerTitle': 'MCP server',
-  'settings.mcpServerHint': 'Expose Open Design as an MCP server for your coding agent.',
+  'settings.mcpServerHint': 'Expose Syntra Design Studio as an MCP server for your coding agent.',
   'settings.externalMcpTitle': 'External MCP',
   'settings.externalMcpHint': 'Add MCP tools from external services (Higgsfield, GitHub, …).',
   'settings.mediaProviderApiKey': 'API key',
@@ -174,9 +174,9 @@ export const en: Dict = {
   'settings.mediaProviderReloadSuccess': 'Reloaded media provider settings from the local daemon.',
   'settings.mediaProviderLoadError': 'Could not load media provider settings from the local daemon. Using browser-saved settings for now.',
   'settings.privacy': 'Privacy',
-  'settings.privacyHint': 'What data is shared with the Open Design team',
-  'settings.privacyConsentKicker': 'Help us improve Open Design',
-  'settings.privacyConsentLead': 'Open Design can share usage data with our team to help us improve. This includes:',
+  'settings.privacyHint': 'Privacy settings',
+  'settings.privacyConsentKicker': 'Usage data',
+  'settings.privacyConsentLead': 'Syntra Design Studio can share anonymous usage data to help improve the product. This includes:',
   'settings.privacyConsentFooter': 'You can change either of these any time in Settings → Privacy. We never upload the contents of your generated artifact files.',
   'settings.privacyConsentShare': 'Help improve',
   'settings.privacyConsentDecline': 'Not now',
@@ -206,7 +206,7 @@ export const en: Dict = {
   'settings.mcpHint':
     'Lets a coding agent in another repo (Claude Code, Cursor, VS Code, Antigravity, Zed, Windsurf) read your Open Design projects. Use it to pull a design into your app without exporting a zip first.',
   'settings.mcpDaemonError':
-    "Couldn't reach the local daemon to resolve install paths ({error}). Make sure Open Design is running, then reopen this panel.",
+    "Couldn't reach the local daemon to resolve install paths ({error}). Make sure Syntra Design Studio is running, then reopen this panel.",
   'settings.mcpBuildDaemon': 'Build the daemon first.',
   'settings.mcpNodeMissing': 'Node binary is missing.',
   'settings.mcpBuildHint':
@@ -246,7 +246,7 @@ export const en: Dict = {
   'settings.mcpCapabilityDefault':
     'Default to the project and file you have open in Open Design, so you can say "build this in my app" without re-stating which design.',
   'settings.mcpRunningNote':
-    'Open Design must be running for MCP tool calls to succeed. If you started your coding agent before opening Open Design, restart the agent so it can reach the live daemon.',
+    'Syntra Design Studio must be running for MCP tool calls to succeed. If you started your coding agent before opening Open Design, restart the agent so it can reach the live daemon.',
 
   'entry.tabDesigns': 'Designs',
   'entry.tabTemplates': 'Templates',
@@ -705,7 +705,7 @@ export const en: Dict = {
   'preview.closeTitle': 'Close (Esc)',
   'preview.loading': 'Loading {label}…',
   'preview.errorTitle': 'Couldn\'t load this example.',
-  'preview.errorBody': 'The example HTML failed to fetch. Make sure Open Design is running and try again.',
+  'preview.errorBody': 'The example HTML failed to fetch. Make sure Syntra Design Studio is running and try again.',
   'preview.retry': 'Retry',
   'preview.unavailableTitle': 'No shipped preview for this skill.',
   'preview.unavailableBody': 'This skill produces {kind} output — run the prompt in chat to generate one.',
