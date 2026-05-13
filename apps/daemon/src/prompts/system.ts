@@ -276,7 +276,7 @@ export function composeSystemPrompt({
     );
   }
 
-  const metaBlock = renderMetadataBlock(metadata, template);
+  const metaBlock = renderMetadataBlock(metadata, template, designSystemTitle);
   if (metaBlock) parts.push(metaBlock);
 
   // Decks have a load-bearing framework (nav, counter, scroll JS, print
@@ -502,6 +502,7 @@ Do not silently fall back.`;
 function renderMetadataBlock(
   metadata: ProjectMetadata | undefined,
   template: ProjectTemplate | undefined,
+  activeDesignSystemTitle?: string | undefined,
 ): string {
   if (!metadata) return '';
   const lines: string[] = [];
@@ -510,6 +511,11 @@ function renderMetadataBlock(
     'These are the structured choices the user made (or skipped) when creating this project. Treat known fields as authoritative; for any field marked "(unknown — ask)" you MUST include a matching question in your turn-1 discovery form.',
   );
   lines.push('');
+  if (activeDesignSystemTitle) {
+    lines.push(
+      `- **brand**: already resolved — active design system is "${activeDesignSystemTitle}". DO NOT ask what the company/product is. DO NOT include a brand-context or "do you have a logo" question in the discovery form. DO NOT ask the user to share brand materials. Colors, fonts, logos, and DESIGN.md are pre-loaded. Treat this as Branch B (brand spec already available) and skip brand questions entirely.`
+    );
+  }
   lines.push(`- **kind**: ${metadata.kind}`);
   if (metadata.platform) {
     lines.push(`- **platform**: ${metadata.platform}`);
