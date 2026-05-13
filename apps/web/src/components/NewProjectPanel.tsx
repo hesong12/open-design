@@ -1821,7 +1821,7 @@ function DesignSystemPicker({
         <DesignSystemAvatar system={primary} extraCount={extraCount} />
         <span className="ds-picker-meta">
           <span className="ds-picker-title">
-            {primary ? primary.title : t('newproj.dsNoneFreeform')}
+            {primary ? primary.title : 'Syntra Solutions'}
             {extraCount > 0 ? (
               <span className="ds-picker-extra-pill">+{extraCount}</span>
             ) : null}
@@ -1831,7 +1831,7 @@ function DesignSystemPicker({
               ? isDefault
                 ? t('common.default')
                 : primary.category || t('newproj.dsCategoryFallback')
-              : t('newproj.dsNoneSubtitleEmpty')}
+              : 'Brand design system'}
           </span>
         </span>
         <Icon
@@ -1881,14 +1881,7 @@ function DesignSystemPicker({
             </div>
           </div>
           <div className="ds-picker-list ds-picker-list-design-systems">
-            <DsPickerItem
-              active={selectedIds.length === 0}
-              multi={multi}
-              onClick={clearAll}
-              avatar={<NoneAvatar />}
-              title={t('newproj.dsNoneTitle')}
-              subtitle={t('newproj.dsNoneSub')}
-            />
+            {/* None — freeform option removed: Syntra Design Studio always uses the Syntra design system */}
             {filtered.length === 0 ? (
               <div className="ds-picker-empty">
                 {t('newproj.dsEmpty', { query })}
