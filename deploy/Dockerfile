@@ -86,6 +86,8 @@ RUN mkdir -p /app/.od && \
     chown -R open-design:open-design /app
 
 ENV NODE_ENV=production
+ENV OD_TELEMETRY_DISABLED=true
+ENV OPEN_DESIGN_TELEMETRY_RELAY_URL=
 ENV NODE_OPTIONS=--max-old-space-size=192
 ENV OD_BIND_HOST=0.0.0.0
 ENV OD_PORT=7456

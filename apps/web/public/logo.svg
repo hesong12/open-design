@@ -1,15 +1,5 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' role='img' aria-label='Open Design'>
-  <title>Open Design</title>
-  <g stroke='#1F1B16' stroke-width='3.4' stroke-linecap='square' fill='none'>
-    <path d='M10 24 L10 10 L24 10' />
-    <path d='M40 10 L54 10 L54 24' />
-    <path d='M54 40 L54 54 L40 54' />
-    <path d='M24 54 L10 54 L10 40' />
-  </g>
-  <g stroke='#C2532D' stroke-width='3' stroke-linecap='round'>
-    <line x1='32' y1='20' x2='32' y2='44' />
-    <line x1='20' y1='32' x2='44' y2='32' />
-    <line x1='23.51' y1='23.51' x2='40.49' y2='40.49' />
-    <line x1='40.49' y1='23.51' x2='23.51' y2='40.49' />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" role="img" aria-label="Syntra Solutions">
+  <title>Syntra Solutions</title>
+  <text x="0" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#1f8a4c" letter-spacing="-0.5">Syntra</text>
+  <text x="102" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="400" fill="#2a2c32" letter-spacing="0.5">SOLUTIONS</text>
 </svg>
