@@ -2,7 +2,7 @@ name: Syntra — build & push Docker image
 
 on:
   push:
-    branches: [syntra/remove-none-freeform, syntra/main]
+    branches: [syntra/remove-none-freeform, syntra/main, syntra/v0.7.0]
     paths:
       - 'apps/**'
       - 'packages/**'
